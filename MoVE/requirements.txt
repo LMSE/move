@@ -1,0 +1,6 @@
+COBRA toolbox >= 2.0.5
+CellNetAnalyzer >= 2017.4
+cplex >= 12.0
+matlab <= 2010bSP2 for linux
+matlab <= 2013b for other platforms
+matlab >= 2016a for python data analysis
