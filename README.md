@@ -20,3 +20,7 @@ Then copy this file back to its original location and override the original. Thi
 To test if the connections are properly setup, run setup_cplex_inner_class_access() (after having called starcna). If no errors are thrown, then your paths have been properly setup.
 
 Finally, set the paths in MoVE_startup.m according to your installation and run this script to start up everything.
+
+
+# update - March 2020
+geneVa extends the existing approach for the computation of metabolic valves. It uses gene-product-reaction associations to compute static knockouts and valves at the gene-level, instead of the reaction-level. (https://github.com/LMSE/geneVa) - Author: Philipp Schneider - https://github.com/VonAlphaBisZulu 
