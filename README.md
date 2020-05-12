@@ -1,3 +1,7 @@
+#MoVE
+MoVE is a tool that identifies metabolic valves to switch from a growth to a production stage. It makes use of constrained minimal cut sets.
+Associated research article: Venayak, N., von Kamp, A., Klamt, S. et al. MoVE identifies metabolic valves to switch between phenotypic states. Nat Commun 9, 5332 (2018). https://doi.org/10.1038/s41467-018-07719-4
+
 # Setup
 
 CellNetAnalyzer requires additions to both java and matlab path to run. Firstly, in the script CNAPATH\startcna.m (CNAPATH is the directory where your CNA code is) the two following variables need to be set accordingly:
